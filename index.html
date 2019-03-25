@@ -1,0 +1,73 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="velo.css">
+    <title>Vélo</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script src="JcdData.js"></script>
+
+
+</head>
+
+<body>
+
+    <header>
+        <div id="velibheader">
+            <p id="headerbrand">Velib'</p>
+            <img src="images/bicycle128.png" alt="velologo" id="velologo">
+        </div>
+    </header>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <p id="sliderexplication">
+                1. Sélectionnez une station Velib' sur la carte.<br>
+                2. Clickez sur "Je reserve un vélo".<br>
+                3. Signez, validez, votre vélo vous attend !<br>
+
+            </p>
+        </div>
+        <div class="mySlides fade">
+            <img src="images/velo1bis.jpg" alt="vélo n°1" style="width: 100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/velo2.jpg" alt="vélo n°2" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/velo3.jpg" alt="vélo n°3" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="images/velo4.jpg" alt="vélo n°4" style="width:100%">
+        </div>
+        <a class="prev" id="prev">&#10094;</a>
+        <a class="next" id="next">&#10095;</a>
+
+
+        <div id="myMap"></div>
+        
+
+
+
+
+  </div>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCn6s-yqBzQEW-tC394fzpTOBffJALdwn8&callback=MyMap.initMap"
+            async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="MyMap.js"></script>
+    <script src="MyMarker.js"></script>
+    <script src="MarkerCluster.js"></script>
+    <script src="JcdData.js"></script>
+    <script src="MyCanvas.js"></script>
+    <script src="MyStorage.js"></script>
+    <script src="MyInfo.js"></script>
+    <script src="MySlider.js"></script>
+    <script src="MyChrono.js"></script>
+    <script src="Main.js"></script>
+  </body>
+
+  </html>
